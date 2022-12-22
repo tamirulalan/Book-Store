@@ -45,7 +45,7 @@ When you click on add product located in home page you will be directed to add n
 
 ### Short Video about the app 
 
-[Youtube]([Youtube](https://youtu.be/YWFz5vKhKbo))
+[Youtube](https://www.youtube.com/watch?v=sv_2S4bSO3s&t=63s)
 
 
 ## Technologies Used
