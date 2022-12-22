@@ -1,0 +1,68 @@
+.mainDiv{
+display: flex;
+justify-content: space-around;
+}
+.About{
+    width: 650px;
+}
+.sideBar{
+    width: 284px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 50px;
+    box-shadow: 100px;
+    margin-top: 40px;
+    width: 350px;
+}
+.btn{
+    margin:7px;
+    background-Color: rgb(10, 63, 236);
+      width: 100px;
+      padding: 10px;
+      border: 1px solid yellow;
+      border-Radius: 5px;
+      text-Decoration: none;  
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+}
+h3{
+    color: rgb(106, 70, 236);
+    font-weight: 500;
+    font-size: 35px;
+}
+.price{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background-color: rgb(6, 6, 36);
+    text-align: center;
+    color: #aaaaaa;
+    font-size: 40px;
+    height: 100px;
+    border-radius: 25px;
+    background: url(https://i.pinimg.com/originals/86/cc/bb/86ccbb5469e5192dbdc7c031ca45d0c2.gif);
+    background-repeat: repeat;
+}
+.checkout{
+    margin-top: 10px;
+    background-color: rgb(22, 190, 50);
+    border-radius: 25px;
+    background: url(https://i.stack.imgur.com/wbWxZ.gif);
+    background-repeat: repeat;
+    height: 30px;
+    text-align: center;
+    font-size: 22px;
+}
+.delivery{
+    background-color: rgb(22, 190, 50);
+    border-radius: 25px;
+    height: 30px;
+    font-size: 22px;
+}

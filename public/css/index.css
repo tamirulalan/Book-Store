@@ -1,0 +1,167 @@
+title{
+  text-align: center;
+}
+/* .navBar {
+  background-color: rgb(11, 29, 66);
+  display: flex;
+  justify-content: flex-end;
+  top: 0;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 18px;
+  justify-content: space-between;
+  border-radius: 25px;
+  background: url(https://cdn.dribbble.com/users/645080/screenshots/2808974/particles.gif);
+  background-repeat: repeat;
+  
+  } */
+  
+.navList  {
+   list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+   
+  }
+  
+.navList li {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 16px;
+  margin-top: 22px;
+  }
+  
+.navList li a {
+  text-decoration: none;
+  color:rgb(3, 122, 103)
+  
+  }
+.navList li a:hover {
+    color: rgb(113, 240, 54);
+  }
+
+
+.image-fader {
+width: 1500px;
+height: 300px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+  }
+
+.image-fader img {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  position: absolute;
+      /* top: 0px;
+      left: 0px; */
+      animation-name: imagefade;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-duration: 8s;
+    }
+    
+    @keyframes imagefade {
+      0% {
+        opacity:1;
+      }
+      17% {
+        opacity:1;
+      }
+      25% {
+        opacity:0;
+      }
+      92% {
+        opacity:0;
+      }
+      100% {
+        opacity:1;
+      }
+    }
+    
+    .image-fader img:nth-of-type(1) {
+      animation-delay: 16s;
+    }
+    .image-fader img:nth-of-type(2) {
+      animation-delay: 12s;
+    }
+    .image-fader img:nth-of-type(3) {
+      animation-delay: 6s;
+    }
+    .image-fader img:nth-of-type(4) {
+      animation-delay: 0;
+    }
+
+.bookList{
+  display: flex;
+  justify-content: space-evenly ;
+  margin: 5px;
+  padding: 10px;
+  list-style-type: none;
+
+}
+
+.bookList li {
+box-shadow: 0px 0px 0px 0.5px rgba(26, 3, 109, 0.1),
+  0px 2px 5px 0.5px rgba(56, 7, 192, 0.1), 0px 1px 1.5px 0.5px rgba(14, 4, 145, 0.07);
+border-radius: 7px;
+padding: 40px;
+margin: 0 auto;
+}
+.bookCover{
+  width: 150px;
+  height: 200px;
+  align-self: center;
+}
+
+a{
+  width: 150px;
+  color:rgb(3, 70, 25);
+  text-decoration: none;
+  font-size: large;
+}
+
+h4{
+  color: rgb(1, 1, 22);
+  width: 150px
+}
+h1{
+color: rgb(3, 3, 32);
+text-align: center;
+}
+.stock{
+color: rgb(143, 23, 23);
+}
+.nav{
+display: flex;
+justify-content: flex-end;
+background-color: rgb(189, 189, 240);
+width: 100%;
+height: 80px;
+margin-bottom: 18px;
+}
+
+.nav-item{
+position: relative;
+}
+
+.nav-item span{
+position: relative;
+top: -2px;
+right: 1px; 
+}
+.nav li{
+box-shadow: 0px 0px 0px 0.5px rgba(26, 3, 109, 0.1),
+  0px 2px 5px 0.5px rgba(56, 7, 192, 0.1), 0px 1px 1.5px 0.5px rgba(14, 4, 145, 0.07);
+border-radius: 7px;
+padding: 20px;
+
+display: flex;
+justify-content: flex-end;
+}

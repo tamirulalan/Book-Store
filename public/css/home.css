@@ -1,0 +1,89 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Montserrat&display=swap'); */
+
+/* .Graph {
+  background-color: blue;
+ 
+  border: 1px solid grey;
+} */
+
+.navBar {
+  background-color: rgb(2, 20, 56);
+  display: flex;
+  top: 0;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 18px;
+  justify-content: space-between;
+  border-radius: 25px;
+  background: url(https://cutewallpaper.org/21/rain-background-gif/Pure-CSS-Rain-Armory.gif);
+  background-repeat: repeat;
+  
+  }
+  
+  .navList  {
+   
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+   
+  }
+  
+  .navList li {
+  color:rgb(211, 171, 174);
+  display: inline;
+  padding: 14px 16px;
+  border-right: 1px solid rgb(107, 81, 223);
+  margin-top: 22px;
+  }
+  
+  .navList li a , .sign li a{
+  text-decoration: none;
+  color:rgb(221, 198, 200);
+  font-size: large;
+  }
+  .navList li a:hover {
+    color: rgb(101, 6, 217);
+  }
+  
+  h1{
+    text-align: center;
+  }
+  img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  
+  }
+  .logo{
+    width:150px;
+    height: 150px;
+    margin-right:0px;
+    margin-top: 0px;
+    }
+.sign{
+  color:rgb(211, 171, 174);
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 16px;
+  border-right: 1px solid rgb(13, 3, 58);
+  margin-top: 22px;
+}
+.sign li{
+  display: inline;
+  padding: 14px 16px;
+  border-right: 1px solid rgb(115, 88, 231);
+  margin-top: 22px;
+  color:rgb(211, 171, 174);
+}
+
+.wellcome {
+  display: block;
+    font: 5em 'Montserrat';
+    padding: 14px 16px;
+    border-right: 1px solid rgb(115, 88, 231);
+    margin-top: 22px;
+    color:rgb(40, 18, 99);
+   
+}
