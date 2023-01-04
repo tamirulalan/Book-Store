@@ -15,7 +15,7 @@ const morgan = require('morgan')
 const MongoStore = require('connect-mongo')
 var cookieParser = require('cookie-parser');
 var passport = require('passport');
-// const passport = require('passport')
+
 // var cart =require('./routes/cart')
 const flash = require('express-flash')
 

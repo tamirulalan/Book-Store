@@ -60,7 +60,6 @@ router.post('/user/signin', async (req, res) => {
         // create new username in session object using user info from database
         req.session.username = user.username
         req.session.loggedIn = true
-        // redirect to /blogs
         res.redirect('/product')
     } catch (error){
 
@@ -77,41 +76,6 @@ router.get('/user/signout', (req, res) => {
     }
 })
 
-// // === Find user by ID
-// router.get('/:id', async (req, res) => {
-//     try{
-//         const user = await UserModel.findById(req.params.id)
-//         res.send(user)
-//     } catch(error) {
-//         //console.log(error);
-//         res.status(403).send('Cannot GET by ID')
-//     } 
-// })
 
-
-// // === PUT: update
-// router.put('/:id', async (req, res) =>{
-//     try{
-//     const updatedUser = await UserModel.findByIdAndUpdate(req.params.id, req.body, {'returnDocument': 'after'})
-//     // ^ need to show resource AFTER update or else returns og
-//     res.send(updatedUser)
-//     } catch (error) {
-//        // console.log(error);
-//         res.status(403).send('Cannot update user')
-//     }
-// })
-
-// // === DELETE 
-// router.delete('/:id', async (req, res) =>{
-//     try {
-//         const deletedUser = await UserModel.findByIdAndRemove(req.params.id)
-//       res.send('user deleted')
-
-//     } catch (error) {
-//        // console.log(error);
-//         res.status(403).send('Cannot delete user')
-//     }
-// })
-    
 
 module.exports = router
