@@ -18,7 +18,7 @@ router.get("/product", (req, res) => {
 //New route to show new to be added in the broweser
 
 router.get('/product/new', (req,res)=>{
-    res.render('new')
+    res.render('New')
 })
 
 // Delete - Delete this one record
