@@ -4,7 +4,7 @@ const product = require('../models/product.js')
 
 //Getting Home page
 router.get("/", (req, res) => {
-    res.render('home')
+    res.render('Home')
   })
 // Index which is used to display my lists
 router.get("/product", (req, res) => {
